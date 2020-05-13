@@ -1,0 +1,10 @@
+name: DarkRewards
+description: Rewards plugin for Darkfell.
+author: Wommu#5864
+
+main: dev.wommu.darkrewards.DarkRewardsPlugin
+version: ${project.version}
+
+commands:
+  trailer:
+    description: Opens the reward menu.

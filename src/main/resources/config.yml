@@ -1,0 +1,35 @@
+# Title of the reward claiming GUI. (Supports color codes!)
+title: "&lClaim menu"
+
+# Number of rows the reward claiming GUI has. Must be at least 1.
+rows: 3
+
+# The item in the GUI which is clicked to claim the rewards.
+gui-item:
+  # The material of the item.
+  type: PORTAL
+
+  # The name of the item. (Supports color codes!)
+  name: "&aClick to claim reward!"
+
+  # The lore of the item. (Supports color codes & more lines!)
+  lore:
+    - "&7Line one."
+    - "&fLine two."
+    - "&aLine three."
+    - "&7&o... etc ..."
+
+# The commands which are executed by the console.
+# Replaces %player% with the player's username.
+commands:
+  - "say %player% claimed their rewards!"
+  - "give %player% diamond 1"
+
+# The permission required to claim the reward.
+permission: "darkrewards.claim"
+
+# The message displayed if a person tries to claim the reward without permission.
+no-permission-msg: "&cYou do not have permission to claim the reward."
+
+# The message displayed if a person who claimed the reward tries to claim it again.
+already-claimed-msg: "&cYou have already claimed the reward."
